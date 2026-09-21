@@ -1,0 +1,6 @@
+{
+  "name": "PulseLog",
+  "description": "Changelog & Product Updates Hub with Markdown publishing, reactions, search, filtering, and unread notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

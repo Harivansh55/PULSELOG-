@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@pulselog.dev",
+      "name": "PulseLog Admin",
+      "password_hash": "a44ca5d29f6dab4320ab986479fa985b2d584b11a7da934f7e80bb1449913a07",
+      "role": "ADMIN",
+      "email_verified": true,
+      "created_at": "2026-09-15T09:12:31.227Z"
+    },
+    {
+      "id": 2,
+      "email": "user@pulselog.dev",
+      "name": "Taylor Swift",
+      "password_hash": "69d57ea4df5dc21af52559f9b8417de8f65c8a843cab060d7d1c2fe9dd45af30",
+      "role": "USER",
+      "email_verified": true,
+      "created_at": "2026-09-15T09:12:31.227Z"
+    }
+  ],
+  "changelogs": [
+    {
+      "id": 1,
+      "title": "v2.4.0 — High-Performance Search and Markdown Publishing Engine",
+      "slug": "v240-high-performance-search-and-markdown-publishing-engine",
+      "category": "New",
+      "status": "Published",
+      "published_at": "2026-09-20T09:12:31.227Z",
+      "created_at": "2026-09-20T09:12:31.227Z",
+      "updated_at": "2026-09-20T09:12:31.227Z",
+      "cover_image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&auto=format&fit=crop&q=80",
+      "content_markdown": "### Elevating the Changelog Experience\n\nWe are thrilled to launch PulseLog v2.4.0, introducing a ground-up rebuilt publishing studio and lightning-fast search capabilities across all product releases.\n\n#### What's New:\n* **Instant Sub-50ms Search:** Real-time query matching across release notes, titles, and release tags.\n* **Side-by-Side Markdown Studio:** Compose formatted updates with instant live rendering.\n* **Interactive Reactions:** Share your excitement with ❤️, 🎉, and 🚀 directly on updates.\n* **Open Standard JSON Feed 1.1:** Subscribe through modern feed readers and automated webhooks.\n\n```json\n{\n  \"status\": \"published\",\n  \"version\": \"2.4.0\",\n  \"engine\": \"PulseLog Core\"\n}\n```\n\nTry filtering by category above or click the What's New bell to see unread updates!"
+    },
+    {
+      "id": 2,
+      "title": "v2.3.2 — Optimized Image Delivery and Dark Mode Polish",
+      "slug": "v232-optimized-image-delivery-and-dark-mode-polish",
+      "category": "Improved",
+      "status": "Published",
+      "published_at": "2026-09-18T09:12:31.227Z",
+      "created_at": "2026-09-18T09:12:31.227Z",
+      "updated_at": "2026-09-18T09:12:31.227Z",
+      "cover_image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1000&auto=format&fit=crop&q=80",
+      "content_markdown": "### Performance & Typography Enhancements\n\nIn this release, we focused on UI fluidity, crisp layout math, and image caching:\n\n* **Next-Gen Image Pipeline:** Full support for WEBP and lossless PNG compression under 5MB with magic-byte security checks.\n* **Refined Typography Scale:** Switched to high-contrast typographic pairings with generous whitespace for effortless scanning.\n* **Accessible Focus Rings:** Enhanced keyboard navigation throughout modal overlays and reaction buttons.\n\n> *Craft is the difference between an application people tolerate and one people love using.*"
+    },
+    {
+      "id": 3,
+      "title": "v2.3.1 — Fixed Token Refresh Race Condition & Session Edge Cases",
+      "slug": "v231-fixed-token-refresh-race-condition-session-edge-cases",
+      "category": "Fixed",
+      "status": "Published",
+      "published_at": "2026-09-15T09:12:31.227Z",
+      "created_at": "2026-09-15T09:12:31.227Z",
+      "updated_at": "2026-09-15T09:12:31.227Z",
+      "cover_image": null,
+      "content_markdown": "### Security & Reliability Fixes\n\nThis maintenance release patches session edge cases reported by community members:\n\n1. **Token Refresh Synchronization:** Resolved potential race conditions when multiple parallel tabs refresh expired access tokens simultaneously.\n2. **Reuse Detection Hardening:** Immediate automatic revocation of all user sessions whenever a stale or revoked refresh token is detected.\n3. **Drawer Badge Synchronization:** Fixed accurate database-driven unread counts when marking changelogs as read."
+    },
+    {
+      "id": 4,
+      "title": "v2.5.0 — Upcoming Webhook Dispatcher and RSS/JSON Automations",
+      "slug": "v250-upcoming-webhook-dispatcher-and-rss-json-automations",
+      "category": "New",
+      "status": "Draft",
+      "published_at": null,
+      "created_at": "2026-09-21T09:12:31.227Z",
+      "updated_at": "2026-09-21T09:12:31.227Z",
+      "cover_image": null,
+      "content_markdown": "### Internal Draft: Webhook Dispatcher\n\n*Note: This is a draft changelog visible only in the Admin Dashboard!*\n\nWe are preparing automated webhook triggers to ping Slack, Discord, and custom REST targets whenever a changelog is transitioned from `Draft` to `Published`."
+    }
+  ],
+  "reactions": [
+    {
+      "id": 1,
+      "changelog_id": 1,
+      "user_id": 1,
+      "reaction_type": "heart"
+    },
+    {
+      "id": 2,
+      "changelog_id": 1,
+      "user_id": 1,
+      "reaction_type": "rocket"
+    },
+    {
+      "id": 3,
+      "changelog_id": 1,
+      "user_id": 2,
+      "reaction_type": "celebrate"
+    }
+  ],
+  "userViews": [
+    {
+      "user_id": 2,
+      "last_viewed_changelog_date": "2026-09-19T09:12:31.227Z"
+    },
+    {
+      "user_id": 1,
+      "last_viewed_changelog_date": "2026-09-21T09:12:31.227Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "657a966ab6cca5051788a747f1b0f82eff22d9625f89d3aa4dd0a62efe8e8a52",
+      "refresh_token": "b49f58d0a1dd8a1ef392720cf5d31e9de092baea00e7cc24083f2636d43d47c0",
+      "user_id": 1,
+      "expires_at": 1790586768991
+    },
+    {
+      "token": "e580aacfce501caf295231a0090da9b352f5e2da6203661ef7523f715fccc934",
+      "refresh_token": "076bfecd3b71187040ae4291a4084c7570b9f5b54a89a5f4e293db9acb7f5047",
+      "user_id": 1,
+      "expires_at": 1790586805448
+    },
+    {
+      "token": "d2b4eca853d4efd38282d3ee715cdaf66590a7d23860e0981e68ca764b88f9d3",
+      "refresh_token": "746402f18eb5ab5570bd8dd92cd4ae490dd09a6681f30b1bb7d4094eb597d5a7",
+      "user_id": 2,
+      "expires_at": 1790586952483
+    },
+    {
+      "token": "e4759ed28c72dd5bbd127447ab7a57f9a3ebac26e0dd3b307f93f696c66c9291",
+      "refresh_token": "67a62a5b4243b368e6fa298f9b39e513b25885e87aff9e5dc0bf063502eb0cf4",
+      "user_id": 1,
+      "expires_at": 1790586967717
+    },
+    {
+      "token": "2125713cbecf4cd9f1ba28fc1255457addccb15da1834db8660c17f9dc6714ad",
+      "refresh_token": "0b953a85370fa42af2cd4594885edbe07865f7da90883ddd07583d91decf0bc6",
+      "user_id": 1,
+      "expires_at": 1790587184414
+    },
+    {
+      "token": "40bec7aacbbd9e65cae5f240feb44991870e316b5148c196c4be5891fa785774",
+      "refresh_token": "ebeb1285006dc669c67b21799d3fe855950d04ea3ce52aafea7ddc8575ef8ef2",
+      "user_id": 1,
+      "expires_at": 1790587193440
+    },
+    {
+      "token": "c67739e9280b4a08869658174a19cdb020df415016cd7abb334f8a8564487727",
+      "refresh_token": "7b9a3246b9661c1e89456eb86097152a77873e0054542f34c768d094ba2d74e1",
+      "user_id": 1,
+      "expires_at": 1790587197199
+    },
+    {
+      "token": "0713adcc280e36b4d72011b10d25b9413d019fed5d544a78ad11c791c9c9d6d7",
+      "refresh_token": "b40b7c4c360d3e7e8c3d1340c916ac2945ff2344b5cfe202515016f6f5b5d59a",
+      "user_id": 1,
+      "expires_at": 1790587200590
+    }
+  ],
+  "nextUserId": 3,
+  "nextChangelogId": 6,
+  "nextReactionId": 4
+}
